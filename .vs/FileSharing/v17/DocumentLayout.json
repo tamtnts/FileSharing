@@ -1,0 +1,431 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\New folder\\FileSharing\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{40EA6B41-CCA4-4DDE-A443-81F846F27EE1}|FileSharingAPI\\FileSharingAPI.csproj|d:\\new folder\\filesharing\\filesharingapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40EA6B41-CCA4-4DDE-A443-81F846F27EE1}|FileSharingAPI\\FileSharingAPI.csproj|solutionrelative:filesharingapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B82262-F859-4705-A9AD-2DEE447ECEA6}|DataAccess\\DataAccess.csproj|d:\\new folder\\filesharing\\dataaccess\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B82262-F859-4705-A9AD-2DEE447ECEA6}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B82262-F859-4705-A9AD-2DEE447ECEA6}|DataAccess\\DataAccess.csproj|d:\\new folder\\filesharing\\dataaccess\\models\\file.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B82262-F859-4705-A9AD-2DEE447ECEA6}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\models\\file.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B82262-F859-4705-A9AD-2DEE447ECEA6}|DataAccess\\DataAccess.csproj|d:\\new folder\\filesharing\\dataaccess\\models\\text.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B82262-F859-4705-A9AD-2DEE447ECEA6}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\models\\text.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B82262-F859-4705-A9AD-2DEE447ECEA6}|DataAccess\\DataAccess.csproj|d:\\new folder\\filesharing\\dataaccess\\jwt\\jwtusertoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B82262-F859-4705-A9AD-2DEE447ECEA6}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\jwt\\jwtusertoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B82262-F859-4705-A9AD-2DEE447ECEA6}|DataAccess\\DataAccess.csproj|d:\\new folder\\filesharing\\dataaccess\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B82262-F859-4705-A9AD-2DEE447ECEA6}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B82262-F859-4705-A9AD-2DEE447ECEA6}|DataAccess\\DataAccess.csproj|d:\\new folder\\filesharing\\dataaccess\\dto\\fileuploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B82262-F859-4705-A9AD-2DEE447ECEA6}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\dto\\fileuploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B82262-F859-4705-A9AD-2DEE447ECEA6}|DataAccess\\DataAccess.csproj|d:\\new folder\\filesharing\\dataaccess\\dto\\textuploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B82262-F859-4705-A9AD-2DEE447ECEA6}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\dto\\textuploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B82262-F859-4705-A9AD-2DEE447ECEA6}|DataAccess\\DataAccess.csproj|d:\\new folder\\filesharing\\dataaccess\\filesharingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B82262-F859-4705-A9AD-2DEE447ECEA6}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\filesharingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B82262-F859-4705-A9AD-2DEE447ECEA6}|DataAccess\\DataAccess.csproj|d:\\new folder\\filesharing\\dataaccess\\repositories\\file\\filerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B82262-F859-4705-A9AD-2DEE447ECEA6}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repositories\\file\\filerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B82262-F859-4705-A9AD-2DEE447ECEA6}|DataAccess\\DataAccess.csproj|d:\\new folder\\filesharing\\dataaccess\\repositories\\file\\ifilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B82262-F859-4705-A9AD-2DEE447ECEA6}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repositories\\file\\ifilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B82262-F859-4705-A9AD-2DEE447ECEA6}|DataAccess\\DataAccess.csproj|d:\\new folder\\filesharing\\dataaccess\\repositories\\text\\itextrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B82262-F859-4705-A9AD-2DEE447ECEA6}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repositories\\text\\itextrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B82262-F859-4705-A9AD-2DEE447ECEA6}|DataAccess\\DataAccess.csproj|d:\\new folder\\filesharing\\dataaccess\\repositories\\text\\textrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B82262-F859-4705-A9AD-2DEE447ECEA6}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repositories\\text\\textrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B82262-F859-4705-A9AD-2DEE447ECEA6}|DataAccess\\DataAccess.csproj|d:\\new folder\\filesharing\\dataaccess\\repositories\\user\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B82262-F859-4705-A9AD-2DEE447ECEA6}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repositories\\user\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B82262-F859-4705-A9AD-2DEE447ECEA6}|DataAccess\\DataAccess.csproj|d:\\new folder\\filesharing\\dataaccess\\repositories\\user\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B82262-F859-4705-A9AD-2DEE447ECEA6}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repositories\\user\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40EA6B41-CCA4-4DDE-A443-81F846F27EE1}|FileSharingAPI\\FileSharingAPI.csproj|d:\\new folder\\filesharing\\filesharingapi\\controllers\\textcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40EA6B41-CCA4-4DDE-A443-81F846F27EE1}|FileSharingAPI\\FileSharingAPI.csproj|solutionrelative:filesharingapi\\controllers\\textcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40EA6B41-CCA4-4DDE-A443-81F846F27EE1}|FileSharingAPI\\FileSharingAPI.csproj|d:\\new folder\\filesharing\\filesharingapi\\controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40EA6B41-CCA4-4DDE-A443-81F846F27EE1}|FileSharingAPI\\FileSharingAPI.csproj|solutionrelative:filesharingapi\\controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAA620C7-E8D5-497B-B64E-83D1547C3855}|Services\\Services.csproj|d:\\new folder\\filesharing\\services\\services\\file\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAA620C7-E8D5-497B-B64E-83D1547C3855}|Services\\Services.csproj|solutionrelative:services\\services\\file\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAA620C7-E8D5-497B-B64E-83D1547C3855}|Services\\Services.csproj|d:\\new folder\\filesharing\\services\\services\\file\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAA620C7-E8D5-497B-B64E-83D1547C3855}|Services\\Services.csproj|solutionrelative:services\\services\\file\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAA620C7-E8D5-497B-B64E-83D1547C3855}|Services\\Services.csproj|d:\\new folder\\filesharing\\services\\services\\text\\textservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAA620C7-E8D5-497B-B64E-83D1547C3855}|Services\\Services.csproj|solutionrelative:services\\services\\text\\textservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAA620C7-E8D5-497B-B64E-83D1547C3855}|Services\\Services.csproj|d:\\new folder\\filesharing\\services\\services\\text\\itextservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAA620C7-E8D5-497B-B64E-83D1547C3855}|Services\\Services.csproj|solutionrelative:services\\services\\text\\itextservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAA620C7-E8D5-497B-B64E-83D1547C3855}|Services\\Services.csproj|d:\\new folder\\filesharing\\services\\services\\user\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAA620C7-E8D5-497B-B64E-83D1547C3855}|Services\\Services.csproj|solutionrelative:services\\services\\user\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAA620C7-E8D5-497B-B64E-83D1547C3855}|Services\\Services.csproj|d:\\new folder\\filesharing\\services\\services\\user\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAA620C7-E8D5-497B-B64E-83D1547C3855}|Services\\Services.csproj|solutionrelative:services\\services\\user\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FileSharingContext.cs",
+              "DocumentMoniker": "D:\\New folder\\FileSharing\\DataAccess\\FileSharingContext.cs",
+              "RelativeDocumentMoniker": "DataAccess\\FileSharingContext.cs",
+              "ToolTip": "D:\\New folder\\FileSharing\\DataAccess\\FileSharingContext.cs",
+              "RelativeToolTip": "DataAccess\\FileSharingContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:37:16.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FileUploadDTO.cs",
+              "DocumentMoniker": "D:\\New folder\\FileSharing\\DataAccess\\DTO\\FileUploadDTO.cs",
+              "RelativeDocumentMoniker": "DataAccess\\DTO\\FileUploadDTO.cs",
+              "ToolTip": "D:\\New folder\\FileSharing\\DataAccess\\DTO\\FileUploadDTO.cs",
+              "RelativeToolTip": "DataAccess\\DTO\\FileUploadDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:34:54.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TextUploadDTO.cs",
+              "DocumentMoniker": "D:\\New folder\\FileSharing\\DataAccess\\DTO\\TextUploadDTO.cs",
+              "RelativeDocumentMoniker": "DataAccess\\DTO\\TextUploadDTO.cs",
+              "ToolTip": "D:\\New folder\\FileSharing\\DataAccess\\DTO\\TextUploadDTO.cs",
+              "RelativeToolTip": "DataAccess\\DTO\\TextUploadDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:35:02.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "D:\\New folder\\FileSharing\\DataAccess\\DTO\\UserDTO.cs",
+              "RelativeDocumentMoniker": "DataAccess\\DTO\\UserDTO.cs",
+              "ToolTip": "D:\\New folder\\FileSharing\\DataAccess\\DTO\\UserDTO.cs",
+              "RelativeToolTip": "DataAccess\\DTO\\UserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:34:46.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JWTUserToken.cs",
+              "DocumentMoniker": "D:\\New folder\\FileSharing\\DataAccess\\JWT\\JWTUserToken.cs",
+              "RelativeDocumentMoniker": "DataAccess\\JWT\\JWTUserToken.cs",
+              "ToolTip": "D:\\New folder\\FileSharing\\DataAccess\\JWT\\JWTUserToken.cs",
+              "RelativeToolTip": "DataAccess\\JWT\\JWTUserToken.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:34:37.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "File.cs",
+              "DocumentMoniker": "D:\\New folder\\FileSharing\\DataAccess\\Models\\File.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Models\\File.cs",
+              "ToolTip": "D:\\New folder\\FileSharing\\DataAccess\\Models\\File.cs",
+              "RelativeToolTip": "DataAccess\\Models\\File.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:31:20.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Text.cs",
+              "DocumentMoniker": "D:\\New folder\\FileSharing\\DataAccess\\Models\\Text.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Models\\Text.cs",
+              "ToolTip": "D:\\New folder\\FileSharing\\DataAccess\\Models\\Text.cs",
+              "RelativeToolTip": "DataAccess\\Models\\Text.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:31:26.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\New folder\\FileSharing\\DataAccess\\Models\\User.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Models\\User.cs",
+              "ToolTip": "D:\\New folder\\FileSharing\\DataAccess\\Models\\User.cs",
+              "RelativeToolTip": "DataAccess\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:31:14.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\New folder\\FileSharing\\FileSharingAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "FileSharingAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\New folder\\FileSharing\\FileSharingAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "FileSharingAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:30:32.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FileRepository.cs",
+              "DocumentMoniker": "D:\\New folder\\FileSharing\\DataAccess\\Repositories\\File\\FileRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repositories\\File\\FileRepository.cs",
+              "ToolTip": "D:\\New folder\\FileSharing\\DataAccess\\Repositories\\File\\FileRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repositories\\File\\FileRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:35:45.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IFileRepository.cs",
+              "DocumentMoniker": "D:\\New folder\\FileSharing\\DataAccess\\Repositories\\File\\IFileRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repositories\\File\\IFileRepository.cs",
+              "ToolTip": "D:\\New folder\\FileSharing\\DataAccess\\Repositories\\File\\IFileRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repositories\\File\\IFileRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:35:37.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ITextRepository.cs",
+              "DocumentMoniker": "D:\\New folder\\FileSharing\\DataAccess\\Repositories\\Text\\ITextRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repositories\\Text\\ITextRepository.cs",
+              "ToolTip": "D:\\New folder\\FileSharing\\DataAccess\\Repositories\\Text\\ITextRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repositories\\Text\\ITextRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:36:03.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TextRepository.cs",
+              "DocumentMoniker": "D:\\New folder\\FileSharing\\DataAccess\\Repositories\\Text\\TextRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repositories\\Text\\TextRepository.cs",
+              "ToolTip": "D:\\New folder\\FileSharing\\DataAccess\\Repositories\\Text\\TextRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repositories\\Text\\TextRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:35:55.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\New folder\\FileSharing\\DataAccess\\Repositories\\User\\UserRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repositories\\User\\UserRepository.cs",
+              "ToolTip": "D:\\New folder\\FileSharing\\DataAccess\\Repositories\\User\\UserRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repositories\\User\\UserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:36:25.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\New folder\\FileSharing\\DataAccess\\Repositories\\User\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repositories\\User\\IUserRepository.cs",
+              "ToolTip": "D:\\New folder\\FileSharing\\DataAccess\\Repositories\\User\\IUserRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repositories\\User\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:36:12.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TextController.cs",
+              "DocumentMoniker": "D:\\New folder\\FileSharing\\FileSharingAPI\\Controllers\\TextController.cs",
+              "RelativeDocumentMoniker": "FileSharingAPI\\Controllers\\TextController.cs",
+              "ToolTip": "D:\\New folder\\FileSharing\\FileSharingAPI\\Controllers\\TextController.cs",
+              "RelativeToolTip": "FileSharingAPI\\Controllers\\TextController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:30:54.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FileController.cs",
+              "DocumentMoniker": "D:\\New folder\\FileSharing\\FileSharingAPI\\Controllers\\FileController.cs",
+              "RelativeDocumentMoniker": "FileSharingAPI\\Controllers\\FileController.cs",
+              "ToolTip": "D:\\New folder\\FileSharing\\FileSharingAPI\\Controllers\\FileController.cs",
+              "RelativeToolTip": "FileSharingAPI\\Controllers\\FileController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:30:41.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\New folder\\FileSharing\\Services\\Services\\User\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\Services\\User\\UserService.cs",
+              "ToolTip": "D:\\New folder\\FileSharing\\Services\\Services\\User\\UserService.cs",
+              "RelativeToolTip": "Services\\Services\\User\\UserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:29:31.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ITextService.cs",
+              "DocumentMoniker": "D:\\New folder\\FileSharing\\Services\\Services\\Text\\ITextService.cs",
+              "RelativeDocumentMoniker": "Services\\Services\\Text\\ITextService.cs",
+              "ToolTip": "D:\\New folder\\FileSharing\\Services\\Services\\Text\\ITextService.cs",
+              "RelativeToolTip": "Services\\Services\\Text\\ITextService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:29:21.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TextService.cs",
+              "DocumentMoniker": "D:\\New folder\\FileSharing\\Services\\Services\\Text\\TextService.cs",
+              "RelativeDocumentMoniker": "Services\\Services\\Text\\TextService.cs",
+              "ToolTip": "D:\\New folder\\FileSharing\\Services\\Services\\Text\\TextService.cs",
+              "RelativeToolTip": "Services\\Services\\Text\\TextService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:29:14.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IFileService.cs",
+              "DocumentMoniker": "D:\\New folder\\FileSharing\\Services\\Services\\File\\IFileService.cs",
+              "RelativeDocumentMoniker": "Services\\Services\\File\\IFileService.cs",
+              "ToolTip": "D:\\New folder\\FileSharing\\Services\\Services\\File\\IFileService.cs",
+              "RelativeToolTip": "Services\\Services\\File\\IFileService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:29:08.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\New folder\\FileSharing\\Services\\Services\\User\\IUserService.cs",
+              "RelativeDocumentMoniker": "Services\\Services\\User\\IUserService.cs",
+              "ToolTip": "D:\\New folder\\FileSharing\\Services\\Services\\User\\IUserService.cs",
+              "RelativeToolTip": "Services\\Services\\User\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:29:38.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "D:\\New folder\\FileSharing\\Services\\Services\\File\\FileService.cs",
+              "RelativeDocumentMoniker": "Services\\Services\\File\\FileService.cs",
+              "ToolTip": "D:\\New folder\\FileSharing\\Services\\Services\\File\\FileService.cs",
+              "RelativeToolTip": "Services\\Services\\File\\FileService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:29:00.538Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
