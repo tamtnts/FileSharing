@@ -11,6 +11,7 @@ using DataAccess.Repositories.File;
 using DataAccess.Repositories.Text;
 using Services.Services.File;
 using Services.Services.Text;
+using Services.Utils;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -78,15 +79,24 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
-builder.Services.AddDbContext<FileSharingContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowSpecificOrigin", builder =>
+        builder.WithOrigins("https://localhost:7150")
+               .AllowAnyHeader()
+               .AllowAnyMethod());
+});
 
 // Register DbContext
 builder.Services.AddDbContext<FileSharingContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+builder.Services.AddHttpContextAccessor();
+
 // Register repositories and services
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+
+builder.Services.AddScoped<DecodeToken>();
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IFileRepository, FileRepository>();
@@ -103,6 +113,7 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
+    app.UseDeveloperExceptionPage();
     app.UseSwagger();
     app.UseSwaggerUI();
 }
@@ -110,7 +121,6 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
-
 app.MapControllers();
 
 app.Run();

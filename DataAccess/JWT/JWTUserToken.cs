@@ -16,10 +16,10 @@ namespace DataAccess.JWT
         {
             var claims = new[]
             {
-                new Claim(JwtRegisteredClaimNames.Sub, user.Email),
-                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString())
-            };
+        new Claim(JwtRegisteredClaimNames.Sub, user.Email),
+        new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+        new Claim("Id", user.Id.ToString())
+    };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("YourSecretKey12345-FileSharing-NguyenThanhTam"));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);

@@ -10,6 +10,5 @@ namespace DataAccess.DTO
     {
         public string Content { get; set; }
         public bool AutoDelete { get; set; }
-        public int UserId { get; set; }
     }
 }

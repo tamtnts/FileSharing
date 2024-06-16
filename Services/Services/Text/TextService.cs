@@ -1,6 +1,7 @@
 ﻿using DataAccess.Models;
 using DataAccess.Repositories.Generic;
 using DataAccess.Repositories.Text;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,11 +14,13 @@ namespace Services.Services.Text
     {
         private readonly ITextRepository _textRepo;
         private IGenericRepository<DataAccess.Models.Text> _genericRepo;
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public TextService(ITextRepository textRepo, IGenericRepository<DataAccess.Models.Text> genericRepo)
+        public TextService(ITextRepository textRepo, IGenericRepository<DataAccess.Models.Text> genericRepo, IHttpContextAccessor httpContextAccessor)
         {
             _textRepo = textRepo;
             _genericRepo = genericRepo;
+            _httpContextAccessor = httpContextAccessor;
         }
 
         public async Task<string> UploadText(string textContent, bool autoDelete, int userId)
@@ -31,8 +34,8 @@ namespace Services.Services.Text
 
             await _textRepo.AddTextAsync(textRecord);
 
-            // Return the URL 
-            return $"/api/text/{textRecord.Id}";
+            var absoluteUrl = $"{_httpContextAccessor.HttpContext.Request.Scheme}://{_httpContextAccessor.HttpContext.Request.Host}/api/text/{textRecord.Id}";
+            return absoluteUrl;
         }
 
         public async Task<DataAccess.Models.Text> GetTextById(Guid id)
