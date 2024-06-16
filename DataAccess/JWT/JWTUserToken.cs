@@ -21,12 +21,12 @@ namespace DataAccess.JWT
                 new Claim(ClaimTypes.NameIdentifier, user.Id.ToString())
             };
 
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("YourSecretKey12345-tetsdjhsdjshdjsjdsjd"));
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("YourSecretKey12345-FileSharing-NguyenThanhTam"));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
             var token = new JwtSecurityToken(
-                issuer: "yourdomain.com",
-                audience: "yourdomain.com",
+                issuer: "YourIssuer",
+                audience: "YourAudience",
                 claims: claims,
                 expires: DateTime.Now.AddDays(7),
                 signingCredentials: creds);

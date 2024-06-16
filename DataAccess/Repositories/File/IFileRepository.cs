@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Repositories.File
 {
-    public interface IFileRepository
+    public interface IFileRepository 
     {
+       /* Task<Models.File> GetFileByIdAsync(Guid id);
+        Task AddFileAsync(Models.File file);
+        Task RemoveFileAsync(Models.File file);*/
     }
 }
