@@ -1,4 +1,5 @@
 ﻿using DataAccess.Repositories.Generic;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,27 +8,10 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Repositories.File
 {
-    public class FileRepository : IFileRepository
+    public class FileRepository : GenericRepository<Models.File>, IFileRepository
     {
-        /*private readonly GenericRepository<Models.File> _repository;
-        public FileRepository(GenericRepository<Models.File> repository)
+        public FileRepository(FileSharingContext context) : base(context)
         {
-            _repository = repository;
         }
-
-        public async Task<Models.File> GetFileByIdAsync(Guid id)
-        {
-            return await _repository.GetByIdAsync(id);
-        }
-
-        public async Task AddFileAsync(Models.File file)
-        {
-            await _repository.AddAsync(file);
-        }
-
-        public async Task RemoveFileAsync(Models.File file)
-        {
-            await _repository.DeleteAsync(file);
-        }*/
     }
 }

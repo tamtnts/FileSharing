@@ -28,7 +28,7 @@ namespace FileSharingAPI.Controllers
         {
             if (User.Identity is ClaimsIdentity identity)
             {
-                var userIdClaim = identity.FindFirst("Id");
+                var userIdClaim = identity.FindFirst("UserId");
                 if (userIdClaim != null && int.TryParse(userIdClaim.Value, out int userId))
                 {
                     var url = await _textService.UploadText(request.Content, request.AutoDelete, userId);

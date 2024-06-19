@@ -18,7 +18,7 @@ namespace DataAccess.JWT
             {
         new Claim(JwtRegisteredClaimNames.Sub, user.Email),
         new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-        new Claim("Id", user.Id.ToString())
+        new Claim("UserId", user.Id.ToString())
     };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("YourSecretKey12345-FileSharing-NguyenThanhTam"));

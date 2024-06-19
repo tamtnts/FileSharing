@@ -12,10 +12,11 @@ using DataAccess.Repositories.Text;
 using Services.Services.File;
 using Services.Services.Text;
 using Services.Utils;
+using Amazon.S3;
+using Amazon.SecretsManager;
+using Microsoft.AspNetCore.Hosting;
 
 var builder = WebApplication.CreateBuilder(args);
-
-// Add services to the container.
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -87,6 +88,8 @@ builder.Services.AddCors(options =>
                .AllowAnyMethod());
 });
 
+builder.Services.AddAWSService<IAmazonS3>();
+
 // Register DbContext
 builder.Services.AddDbContext<FileSharingContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
@@ -106,7 +109,6 @@ builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IFileService, FileService>();
 builder.Services.AddScoped<ITextService, TextService>();
 
-
 builder.Services.AddAuthorization();
 
 var app = builder.Build();
@@ -124,3 +126,25 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+public partial class Program
+{
+    public static void Main(string[] args)
+    {
+        CreateHostBuilder(args).Build().Run();
+    }
+
+    public static IHostBuilder CreateHostBuilder(string[] args) =>
+        Host.CreateDefaultBuilder(args)
+            .ConfigureAppConfiguration((context, config) =>
+            {
+                if (context.HostingEnvironment.IsDevelopment())
+                {
+                    config.AddUserSecrets<Program>();
+                }
+            })
+            .ConfigureWebHostDefaults(webBuilder =>
+            {
+                webBuilder.UseStartup<Program>();
+            });
+}
