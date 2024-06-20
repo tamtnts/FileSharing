@@ -21,6 +21,7 @@
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">C:\Users\Bat\.nuget\packages\microsoft.extensions.apidescription.server\6.0.5</PkgMicrosoft_Extensions_ApiDescription_Server>
     <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">C:\Users\Bat\.nuget\packages\awssdk.core\3.7.304.17</PkgAWSSDK_Core>
+    <PkgAWSSDK_IdentityManagement Condition=" '$(PkgAWSSDK_IdentityManagement)' == '' ">C:\Users\Bat\.nuget\packages\awssdk.identitymanagement\3.7.301.32</PkgAWSSDK_IdentityManagement>
     <PkgAWSSDK_S3 Condition=" '$(PkgAWSSDK_S3)' == '' ">C:\Users\Bat\.nuget\packages\awssdk.s3\3.7.309.5</PkgAWSSDK_S3>
     <PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets Condition=" '$(PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets)' == '' ">C:\Users\Bat\.nuget\packages\microsoft.visualstudio.azure.containers.tools.targets\1.20.1</PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets>
     <PkgAWSSDK_SecretsManager Condition=" '$(PkgAWSSDK_SecretsManager)' == '' ">C:\Users\Bat\.nuget\packages\awssdk.secretsmanager\3.7.304.2</PkgAWSSDK_SecretsManager>

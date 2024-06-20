@@ -13,7 +13,7 @@ namespace Services.Services.File
         private readonly string _bucketName;
         private readonly IFileRepository _fileRepo;
 
-        public FileService(IConfiguration configuration, IFileRepository fileRepo, IAmazonS3 s3Client)
+        public FileService(IConfiguration configuration, IFileRepository fileRepo)
         {
             var accessKey = Environment.GetEnvironmentVariable("AWS_ACCESS_KEY_ID") ?? configuration["AWS:AccessKey"];
             var secretKey = Environment.GetEnvironmentVariable("AWS_SECRET_ACCESS_KEY") ?? configuration["AWS:SecretKey"];

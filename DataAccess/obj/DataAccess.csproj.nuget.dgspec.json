@@ -50,6 +50,10 @@
               "target": "Package",
               "version": "[3.7.301, )"
             },
+            "AWSSDK.IdentityManagement": {
+              "target": "Package",
+              "version": "[3.7.301.32, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.6, )"

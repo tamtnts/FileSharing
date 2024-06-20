@@ -15,7 +15,7 @@
           }
         }
       },
-      "AWSSDK.Core/3.7.300.24": {
+      "AWSSDK.Core/3.7.304.17": {
         "type": "package",
         "compile": {
           "lib/net8.0/AWSSDK.Core.dll": {
@@ -44,6 +44,22 @@
         "runtime": {
           "lib/net8.0/AWSSDK.Extensions.NETCore.Setup.dll": {
             "related": ".pdb"
+          }
+        }
+      },
+      "AWSSDK.IdentityManagement/3.7.301.32": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.304.17, 4.0.0)"
+        },
+        "compile": {
+          "lib/net8.0/AWSSDK.IdentityManagement.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.IdentityManagement.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -1029,6 +1045,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "AWSSDK.Extensions.NETCore.Setup": "3.7.301",
+          "AWSSDK.IdentityManagement": "3.7.301.32",
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
           "System.IdentityModel.Tokens.Jwt": "7.6.0"
@@ -1061,15 +1078,15 @@
         "lib/netstandard2.0/Amazon.Lambda.Core.xml"
       ]
     },
-    "AWSSDK.Core/3.7.300.24": {
-      "sha512": "kpdUCC/BsMHx+rfUblpHwGVOZe7eKivUYsArvlLmOOxD9YK9TsPiBx6Pxh8BwjOhopX605nnuLncoTSlBC5u7Q==",
+    "AWSSDK.Core/3.7.304.17": {
+      "sha512": "GxeeFNDSxJ1s34b4ypd7wVtHalR9CxxZ9uU/hq3xN0x488CrdfH7hWBxb7vgEGd93P/yezneq0kl9N1UBHK2RA==",
       "type": "package",
-      "path": "awssdk.core/3.7.300.24",
+      "path": "awssdk.core/3.7.304.17",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "awssdk.core.3.7.300.24.nupkg.sha512",
+        "awssdk.core.3.7.304.17.nupkg.sha512",
         "awssdk.core.nuspec",
         "images/AWSLogo.png",
         "lib/net35/AWSSDK.Core.dll",
@@ -1106,6 +1123,38 @@
         "lib/netcoreapp3.1/AWSSDK.Extensions.NETCore.Setup.pdb",
         "lib/netstandard2.0/AWSSDK.Extensions.NETCore.Setup.dll",
         "lib/netstandard2.0/AWSSDK.Extensions.NETCore.Setup.pdb"
+      ]
+    },
+    "AWSSDK.IdentityManagement/3.7.301.32": {
+      "sha512": "prupHNXW3B5AGSqIhHEYfH+9uVsbQ7zxEY7fW/dnVLib5ZuAy4IZKqXkZyPeFz59GgIYrR3Us9n1uzhOynxSvA==",
+      "type": "package",
+      "path": "awssdk.identitymanagement/3.7.301.32",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.IdentityManagement.CodeAnalysis.dll",
+        "analyzers/dotnet/cs/SharedAnalysisCode.dll",
+        "awssdk.identitymanagement.3.7.301.32.nupkg.sha512",
+        "awssdk.identitymanagement.nuspec",
+        "images/AWSLogo.png",
+        "lib/net35/AWSSDK.IdentityManagement.dll",
+        "lib/net35/AWSSDK.IdentityManagement.pdb",
+        "lib/net35/AWSSDK.IdentityManagement.xml",
+        "lib/net45/AWSSDK.IdentityManagement.dll",
+        "lib/net45/AWSSDK.IdentityManagement.pdb",
+        "lib/net45/AWSSDK.IdentityManagement.xml",
+        "lib/net8.0/AWSSDK.IdentityManagement.dll",
+        "lib/net8.0/AWSSDK.IdentityManagement.pdb",
+        "lib/net8.0/AWSSDK.IdentityManagement.xml",
+        "lib/netcoreapp3.1/AWSSDK.IdentityManagement.dll",
+        "lib/netcoreapp3.1/AWSSDK.IdentityManagement.pdb",
+        "lib/netcoreapp3.1/AWSSDK.IdentityManagement.xml",
+        "lib/netstandard2.0/AWSSDK.IdentityManagement.dll",
+        "lib/netstandard2.0/AWSSDK.IdentityManagement.pdb",
+        "lib/netstandard2.0/AWSSDK.IdentityManagement.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
       ]
     },
     "AWSSDK.S3/3.7.304.13": {
@@ -2678,6 +2727,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "AWSSDK.Extensions.NETCore.Setup >= 3.7.301",
+      "AWSSDK.IdentityManagement >= 3.7.301.32",
       "AWSSDK.S3 >= 3.7.304.13",
       "Amazon.Lambda.Core >= 2.2.0",
       "DataAccess >= 1.0.0",
@@ -2737,6 +2787,10 @@
           "AWSSDK.Extensions.NETCore.Setup": {
             "target": "Package",
             "version": "[3.7.301, )"
+          },
+          "AWSSDK.IdentityManagement": {
+            "target": "Package",
+            "version": "[3.7.301.32, )"
           },
           "AWSSDK.S3": {
             "target": "Package",

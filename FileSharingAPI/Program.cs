@@ -12,14 +12,12 @@ using DataAccess.Repositories.Text;
 using Services.Services.File;
 using Services.Services.Text;
 using Services.Utils;
-using Amazon.S3;
-using Amazon.SecretsManager;
-using Microsoft.AspNetCore.Hosting;
+using FileSharingAPI.CredentialsHandle;
+using Amazon.IdentityManagement;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
@@ -88,7 +86,8 @@ builder.Services.AddCors(options =>
                .AllowAnyMethod());
 });
 
-builder.Services.AddAWSService<IAmazonS3>();
+builder.Services.AddSingleton<IAwsCredentialsFactory, AwsCredentialsFactory>();
+builder.Services.AddAWSService<IAmazonIdentityManagementService>();
 
 // Register DbContext
 builder.Services.AddDbContext<FileSharingContext>(options =>
