@@ -2872,6 +2872,7 @@
           "AWSSDK.IdentityManagement": "3.7.301.32",
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
+          "Newtonsoft.Json": "13.0.3",
           "System.IdentityModel.Tokens.Jwt": "7.6.0"
         },
         "compile": {
@@ -2918,7 +2919,8 @@
           "Amazon.Lambda.Core": "2.2.0",
           "DataAccess": "1.0.0",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6"
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
+          "Newtonsoft.Json": "13.0.3"
         },
         "compile": {
           "bin/placeholder/Services.dll": {}
@@ -8864,6 +8866,7 @@
       "FileSharingAPI >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
       "Moq >= 4.20.70",
+      "Newtonsoft.Json >= 13.0.3",
       "Services >= 1.0.0",
       "coverlet.collector >= 6.0.0",
       "xunit >= 2.5.3",
@@ -8929,6 +8932,10 @@
           "Moq": {
             "target": "Package",
             "version": "[4.20.70, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
           },
           "coverlet.collector": {
             "target": "Package",

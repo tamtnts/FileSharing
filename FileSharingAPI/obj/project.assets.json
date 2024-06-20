@@ -1190,6 +1190,7 @@
           "AWSSDK.IdentityManagement": "3.7.301.32",
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
+          "Newtonsoft.Json": "13.0.3",
           "System.IdentityModel.Tokens.Jwt": "7.6.0"
         },
         "compile": {
@@ -1209,7 +1210,8 @@
           "Amazon.Lambda.Core": "2.2.0",
           "DataAccess": "1.0.0",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6"
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
+          "Newtonsoft.Json": "13.0.3"
         },
         "compile": {
           "bin/placeholder/Services.dll": {}

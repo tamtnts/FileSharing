@@ -86,6 +86,11 @@ builder.Services.AddCors(options =>
                .AllowAnyMethod());
 });
 
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ListenAnyIP(8080); 
+});
+
 builder.Services.AddSingleton<IAwsCredentialsFactory, AwsCredentialsFactory>();
 builder.Services.AddAWSService<IAmazonIdentityManagementService>();
 

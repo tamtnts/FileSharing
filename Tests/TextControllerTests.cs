@@ -3,6 +3,7 @@ using FileSharingAPI.Controllers;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
+using Newtonsoft.Json.Linq;
 using Services.Services.Text;
 using Services.Utils;
 using System.Security.Claims;
@@ -55,9 +56,9 @@ namespace Tests
             var result = await _controller.UploadText(request);
 
             var okResult = Assert.IsType<OkObjectResult>(result);
-            var response = okResult.Value as dynamic;
-            Assert.NotNull(response); // Ensure the response is not null
-            Assert.Equal("https://mockurl.com/text", response.Url);
+            var json = JObject.FromObject(okResult.Value);
+            Assert.NotNull(json); // Ensure the response is not null
+            Assert.Equal("https://mockurl.com/text", json["Url"].ToString());
         }
 
         [Fact]

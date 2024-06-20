@@ -4,6 +4,7 @@ using Services.Services.File;
 using FileSharingAPI.Controllers;
 using Microsoft.AspNetCore.Http;
 using System.Security.Claims;
+using Newtonsoft.Json.Linq;
 
 namespace Tests
 {
@@ -35,9 +36,9 @@ namespace Tests
             var userId = 1;
 
             var claims = new List<Claim>
-        {
-            new Claim("UserId", userId.ToString())
-        };
+    {
+        new Claim("UserId", userId.ToString())
+    };
             var identity = new ClaimsIdentity(claims, "TestAuthType");
             var principal = new ClaimsPrincipal(identity);
             _controller.ControllerContext = new ControllerContext
@@ -45,13 +46,20 @@ namespace Tests
                 HttpContext = new DefaultHttpContext { User = principal }
             };
 
-            _mockFileService.Setup(service => service.UploadFile(It.IsAny<IFormFile>(), userId, autoDelete)).ReturnsAsync("http://example.com/testfile.txt");
+            var expectedUrl = "http://example.com/testfile.txt";
+            _mockFileService.Setup(service => service.UploadFile(It.IsAny<IFormFile>(), userId, autoDelete))
+                            .ReturnsAsync(expectedUrl);
 
+            // Act
             var result = await _controller.UploadFile(fileMock.Object, autoDelete);
 
+            // Assert
             var okResult = Assert.IsType<OkObjectResult>(result);
-            Assert.Equal("http://example.com/testfile.txt", ((dynamic)okResult.Value).Url);
+            var json = JObject.FromObject(okResult.Value);
+            Assert.NotNull(json);
+            Assert.Equal(expectedUrl, json["Url"].ToString());
         }
+
 
         [Fact]
         public async Task UploadFile_InvalidFile_ReturnsBadRequest()
@@ -68,7 +76,6 @@ namespace Tests
         [Fact]
         public async Task UploadFile_InvalidUserId_ReturnsUnauthorized()
         {
-            // Mock IFormFile
             var fileMock = new Mock<IFormFile>();
             var fileName = "testfile.txt";
             var ms = new MemoryStream();
@@ -80,14 +87,12 @@ namespace Tests
             fileMock.Setup(_ => _.FileName).Returns(fileName);
             fileMock.Setup(_ => _.Length).Returns(ms.Length);
 
-            // Mock HttpContext
             var httpContext = new DefaultHttpContext();
             httpContext.User = new ClaimsPrincipal(new ClaimsIdentity(new Claim[]
             {
-        new Claim("UserId", "123")  // Replace "123" with the desired user ID for testing
+        new Claim("UserId", "e1")
             }, "mock"));
 
-            // Assign mocked HttpContext to the controller
             _controller.ControllerContext = new ControllerContext
             {
                 HttpContext = httpContext

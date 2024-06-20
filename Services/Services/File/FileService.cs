@@ -30,7 +30,7 @@ namespace Services.Services.File
             if (file == null || file.Length == 0)
                 throw new ArgumentException("File is null or empty");
 
-            var fileName = $"{Guid.NewGuid()}_{file.FileName}";
+            var fileName = $"{file.FileName}";
             using (var stream = file.OpenReadStream())
             {
                 var putRequest = new PutObjectRequest
